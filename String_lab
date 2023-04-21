@@ -1,0 +1,46 @@
+package Strings;
+
+public class Strings_Lab {
+	
+	
+	
+public static void main(String[] args) {
+
+String str = "Welcome to Java World ";
+
+
+
+char ch = str.charAt(4);
+System.out.println("The character at 5th position is : "+ch);
+
+
+
+
+int compare = str.compareToIgnoreCase("Welcome");
+System.out.println("Lexicographically compare strings is   : " + compare);
+
+
+
+String con = "Concate : " + str.concat("Let us learn");
+System.out.println(con);
+
+
+int i = str.indexOf('a');
+ System.out.println("Position of first occurence of character 'a' is : " + i);
+
+
+ String str3 = str.replaceAll("a", "e");
+ System.out.println("Replace String :" + str3 );
+
+ String str4 = str.substring(3, 11);
+ System.out.println("String between 4th and 10th position is : "+str4);
+
+
+
+ String s = "PRASHANT";
+ String l = s.toLowerCase();
+ System.out.println("Original String :"+s+"\nNew String : "+l);
+
+}
+}
+
